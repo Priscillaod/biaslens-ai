@@ -15,7 +15,7 @@ response = client.chat.completions.create(
     max_tokens=800
 )
 result = response.choices[0].message.content
-
+git add .
 
 st.set_page_config(page_title="BiasLens AI", layout="wide")
 
